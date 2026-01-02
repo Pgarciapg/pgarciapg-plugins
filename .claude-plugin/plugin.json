@@ -1,0 +1,6 @@
+{
+  "name": "design-team",
+  "description": "A multi-agent design department for Claude Code: UX, visual, copy, accessibility, tokens, and implementation.",
+  "version": "1.0.0",
+  "author": { "name": "Pablo" }
+}
