@@ -5,6 +5,7 @@
   "author": {
     "name": "Pablo Garcia Pizano"
   },
+  "commands": "commands",
   "hooks": {
     "Stop": [
       {
