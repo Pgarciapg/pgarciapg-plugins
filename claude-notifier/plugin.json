@@ -1,0 +1,28 @@
+{
+  "name": "claude-notifier",
+  "version": "1.0.0",
+  "description": "Audio notifications for Claude Code - plays sounds when Claude finishes a task or needs your attention for permission prompts",
+  "author": "Pablo Garcia Pizano",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Glass.aiff"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Funk.aiff"
+          }
+        ]
+      }
+    ]
+  }
+}
