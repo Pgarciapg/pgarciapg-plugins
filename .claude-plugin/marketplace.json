@@ -16,16 +16,6 @@
       },
       "source": "./plugins/design-team",
       "category": "development"
-    },
-    {
-      "name": "claude-notifier",
-      "description": "Audio notifications for Claude Code on macOS - plays sounds when Claude finishes or needs permission approval",
-      "version": "1.0.0",
-      "author": {
-        "name": "Pablo Garcia Pizano"
-      },
-      "source": "./plugins/claude-notifier",
-      "category": "productivity"
     }
   ]
 }
