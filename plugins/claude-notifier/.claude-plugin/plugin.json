@@ -5,18 +5,16 @@
   "author": {
     "name": "Pablo Garcia Pizano"
   },
-  "hooks": {
-    "Stop": [
-      {
-        "type": "command",
-        "command": "afplay /System/Library/Sounds/Glass.aiff"
-      }
-    ],
-    "Notification": [
-      {
-        "type": "command",
-        "command": "afplay /System/Library/Sounds/Funk.aiff"
-      }
-    ]
-  }
+  "hooks": [
+    {
+      "event": "Stop",
+      "type": "command",
+      "command": "afplay /System/Library/Sounds/Glass.aiff"
+    },
+    {
+      "event": "Notification",
+      "type": "command",
+      "command": "afplay /System/Library/Sounds/Funk.aiff"
+    }
+  ]
 }
