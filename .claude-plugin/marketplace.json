@@ -1,0 +1,31 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pgarciapg-plugins",
+  "description": "Pablo's collection of Claude Code plugins including design tools and notifications",
+  "owner": {
+    "name": "Pablo Garcia Pizano",
+    "email": "pgarciapg@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "design-team",
+      "description": "A multi-agent design department for Claude Code: UX, visual, copy, accessibility, tokens, and implementation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pablo Garcia Pizano"
+      },
+      "source": "./plugins/design-team",
+      "category": "development"
+    },
+    {
+      "name": "claude-notifier",
+      "description": "Audio notifications for Claude Code on macOS - plays sounds when Claude finishes or needs permission approval",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pablo Garcia Pizano"
+      },
+      "source": "./plugins/claude-notifier",
+      "category": "productivity"
+    }
+  ]
+}
