@@ -16,6 +16,16 @@
       },
       "source": "./plugins/design-team",
       "category": "development"
+    },
+    {
+      "name": "domain-scout",
+      "description": "AI-powered domain name finder that analyzes your codebase, generates creative name suggestions, and searches registrars for availability and pricing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pablo Garcia Pizano"
+      },
+      "source": "./plugins/domain-scout",
+      "category": "development"
     }
   ]
 }
