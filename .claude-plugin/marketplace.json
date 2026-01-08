@@ -26,6 +26,16 @@
       },
       "source": "./plugins/domain-scout",
       "category": "development"
+    },
+    {
+      "name": "dev-workflow-teams",
+      "description": "Development workflow team compositions with specialized agent task assignments",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pablo Garcia Pizano"
+      },
+      "source": "./plugins/dev-workflow-teams",
+      "category": "development"
     }
   ]
 }
