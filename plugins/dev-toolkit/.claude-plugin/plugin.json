@@ -1,0 +1,8 @@
+{
+  "name": "dev-toolkit",
+  "description": "Code quality lifecycle agents: debug, test, refactor, and document. Provides systematic approaches to root cause analysis, test strategy design, behavior-preserving refactoring, and technical documentation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pablo Garcia Pizano"
+  }
+}

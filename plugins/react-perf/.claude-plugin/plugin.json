@@ -1,0 +1,8 @@
+{
+  "name": "react-perf",
+  "description": "React and Next.js performance optimization guidelines with 40+ prioritized rules. Covers waterfall elimination, bundle optimization, server-side performance, re-render optimization, and more.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pablo Garcia Pizano"
+  }
+}
