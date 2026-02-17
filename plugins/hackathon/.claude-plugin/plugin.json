@@ -1,0 +1,8 @@
+{
+  "name": "hackathon",
+  "description": "Run competitive multi-team hackathons with parallel agents building features against each other. Define teams, assign agents, and let them race to build the best feature.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pablo Garcia Pizano"
+  }
+}

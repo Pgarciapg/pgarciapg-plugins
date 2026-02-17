@@ -66,6 +66,16 @@
       },
       "source": "./plugins/mvp-builder",
       "category": "development"
+    },
+    {
+      "name": "hackathon",
+      "description": "Run competitive multi-team hackathons with parallel agents racing to build features. Design teams, assign agents with zero file conflicts, and let them build in parallel.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pablo Garcia Pizano"
+      },
+      "source": "./plugins/hackathon",
+      "category": "development"
     }
   ]
 }
