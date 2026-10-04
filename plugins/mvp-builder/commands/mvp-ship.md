@@ -1,16 +1,15 @@
 ---
 description: Deploy MVP to Vercel with production-ready configuration
-arguments:
-  - name: environment
-    description: Deployment environment (preview or production)
-    required: false
+argument-hint: "[preview|production]"
 ---
 
 # MVP Ship
 
 Deploy the MVP to Vercel with proper configuration.
 
-## Environment: $ARGUMENTS.environment (default: preview)
+## Environment: $ARGUMENTS
+
+Deploy to the environment named above, `preview` or `production`. If none was given, use `preview`.
 
 ## Pre-flight Checks
 

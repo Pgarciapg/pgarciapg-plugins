@@ -30,7 +30,7 @@
     {
       "name": "mvp-builder",
       "description": "End-to-end MVP builder for client projects using Next.js 16, Supabase, Tailwind v4, and Vercel. Includes kickoff, scaffolding, database management, deployment workflows, AI integration, and design-first prototyping.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "author": {
         "name": "Pablo Garcia Pizano"
       },
