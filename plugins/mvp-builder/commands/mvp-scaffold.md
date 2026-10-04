@@ -1,19 +1,17 @@
 ---
 description: Scaffold a new Next.js 16 + Supabase MVP project with best practices baked in
-arguments:
-  - name: project_name
-    description: Name of the project (used for folder name)
-    required: true
-  - name: skip_install
-    description: Skip npm install (useful for CI)
-    required: false
+argument-hint: "<project-name> [--skip-install]"
 ---
 
 # MVP Scaffold
 
 You are scaffolding a new MVP project with the standard tech stack (Next.js 16 + Supabase + Tailwind v4).
 
-## Project: $ARGUMENTS.project_name
+## Request: $ARGUMENTS
+
+Read the project name from the request above. It becomes the folder name, so use it in lowercase with hyphens (for example `acme-portal`) and put it wherever this guide shows `<project-name>`. On the home page, replace `[Project Name]` with the readable name. If no project name was given, ask for one before anything else.
+
+If the request includes `--skip-install` (useful for CI), add `--skip-install` to the `create-next-app` command and skip every `npm install` and `npx shadcn` command. List the skipped commands in the final setup instructions instead.
 
 ## Pre-flight Checks
 
@@ -28,7 +26,7 @@ You are scaffolding a new MVP project with the standard tech stack (Next.js 16 +
 
 Run:
 ```bash
-npx create-next-app@latest $ARGUMENTS.project_name --typescript --tailwind --eslint --app --src-dir --import-alias "@/*" --use-npm
+npx create-next-app@latest <project-name> --typescript --tailwind --eslint --app --src-dir --import-alias "@/*" --use-npm
 ```
 
 Wait for completion before proceeding.
@@ -37,7 +35,7 @@ Wait for completion before proceeding.
 
 Core:
 ```bash
-cd $ARGUMENTS.project_name && npm install @supabase/supabase-js @supabase/ssr clsx tailwind-merge
+cd <project-name> && npm install @supabase/supabase-js @supabase/ssr clsx tailwind-merge
 ```
 
 Extended UI toolkit (always include):
@@ -447,7 +445,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-6 p-4">
-      <h1 className="text-4xl font-bold">$ARGUMENTS.project_name</h1>
+      <h1 className="text-4xl font-bold">[Project Name]</h1>
       <p className="text-zinc-500">Your MVP starts here.</p>
       <div className="flex gap-4">
         <Button asChild>
@@ -465,7 +463,7 @@ export default function Home() {
 ## Step 10: Git Init & First Commit
 
 ```bash
-cd $ARGUMENTS.project_name
+cd <project-name>
 git init
 git add -A
 git commit -m "Initial MVP scaffold: Next.js 16 + Supabase + shadcn/ui + Tailwind v4"

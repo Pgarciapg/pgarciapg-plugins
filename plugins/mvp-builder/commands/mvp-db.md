@@ -1,16 +1,15 @@
 ---
 description: Manage Supabase database - create tables, generate types, run migrations
-arguments:
-  - name: action
-    description: Action to perform (init, migrate, types, seed, reset)
-    required: true
+argument-hint: "<init|migrate|types|seed|reset>"
 ---
 
 # MVP Database Management
 
 Manage your Supabase database for the MVP.
 
-## Action: $ARGUMENTS.action
+## Action: $ARGUMENTS
+
+Run the section below that matches the action above. If the action is missing or is not one of `init`, `migrate`, `types`, `seed` or `reset`, ask which one to run before doing anything else.
 
 ---
 

@@ -1,21 +1,19 @@
 ---
 description: Start a new MVP project - gather requirements, define scope, and create project brief
-arguments:
-  - name: project_name
-    description: Name of the MVP project
-    required: true
-  - name: client
-    description: Client name (optional)
-    required: false
+argument-hint: "<project-name> [client=<client-name>]"
 ---
 
 # MVP Kickoff
 
 You are starting a new MVP project. Your goal is to gather requirements, define scope, and create a comprehensive project brief.
 
+## Request: $ARGUMENTS
+
+Read the project name and client from the request above. The project name comes first; the client is optional and may be given as `client=<name>` or after the project name. Names can be several words if quoted, for example `/mvp-kickoff "Acme Portal" client="Acme Corp"`. If no project name was given, ask for one before anything else.
+
 ## Project Info
-- **Project Name**: $ARGUMENTS.project_name
-- **Client**: $ARGUMENTS.client
+- **Project Name**: [project name from the request]
+- **Client**: [client from the request, or "not specified"]
 
 ## Phase 1: Discovery
 
@@ -153,4 +151,4 @@ After creating the brief, provide:
 - Default to AI Gateway for any AI features (no API keys needed on Vercel via OIDC)
 - Recommend shadcn/ui for UI components — never build raw HTML controls
 
-When complete, remind the user they can run `/mvp-scaffold $ARGUMENTS.project_name` to generate the project.
+When complete, remind the user they can run `/mvp-scaffold <project-name>` to generate the project, using the project name in lowercase with hyphens (it becomes the folder name).
