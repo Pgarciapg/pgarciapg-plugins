@@ -39,7 +39,7 @@ Searches Namecheap, Porkbun, GoDaddy, Squarespace Domains, and Cloudflare. Requi
 ---
 
 ### hackathon
-Run competitive multi-team hackathons with parallel agents building features against each other. Define teams, assign agents, and let them race to build the best feature.
+Run competitive multi-team hackathons as dynamic workflows. Teams pitch with HTML mockups, judges check feasibility and value, and you pick from a gallery before anything gets built. Modes: Idea Sprint, Feature Sprint, Bug Bash, Polish Sprint, Refactor Race.
 
 **Commands:** `/hackathon`
 

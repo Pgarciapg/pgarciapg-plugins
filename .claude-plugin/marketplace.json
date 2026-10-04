@@ -39,8 +39,8 @@
     },
     {
       "name": "hackathon",
-      "description": "Run competitive multi-team hackathons with parallel agents racing to build features. Design teams, assign agents with zero file conflicts, and let them build in parallel.",
-      "version": "1.0.0",
+      "description": "Run competitive multi-team hackathons as dynamic workflows. Teams pitch with HTML mockups, judges check feasibility and value, and you pick from a gallery before anything gets built.",
+      "version": "2.0.0",
       "author": {
         "name": "Pablo Garcia Pizano"
       },
