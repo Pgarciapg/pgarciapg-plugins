@@ -2,3 +2,7 @@
 **/data/*.jsonl
 **/data/*.json
 !**/data/.gitkeep
+
+# Python bytecode
+__pycache__/
+*.pyc

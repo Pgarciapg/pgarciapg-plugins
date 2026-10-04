@@ -39,9 +39,9 @@ Searches Namecheap, Porkbun, GoDaddy, Squarespace Domains, and Cloudflare. Requi
 ---
 
 ### hackathon
-Run competitive multi-team hackathons as dynamic workflows. Teams pitch with HTML mockups, judges check feasibility and value, and you pick from a gallery before anything gets built. Modes: Idea Sprint, Feature Sprint, Bug Bash, Polish Sprint, Refactor Race.
+Run competitive multi-team hackathons as dynamic workflows. Teams pitch with HTML mockups, one feasibility judge and one value judge score every pitch, and you pick from a gallery before anything gets built. Build modes use isolated worktrees and a second-model review, and the gallery then shows each mockup next to a screenshot of what was built. Modes: Idea Sprint, Feature Sprint, Bug Bash, Polish Sprint, Refactor Race.
 
-**Commands:** `/hackathon`
+**Commands:** `/hackathon <scope> [teams=2-4]`
 
 ---
 
